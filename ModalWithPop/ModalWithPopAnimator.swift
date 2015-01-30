@@ -60,8 +60,8 @@ class ModalWithPopAnimator: NSObject,
             scaleSpringAnimation.property = POPAnimatableProperty.propertyWithName(kPOPLayerScaleXY) as POPAnimatableProperty
             scaleSpringAnimation.fromValue = NSValue(CGPoint: CGPointMake(0, 0))
             scaleSpringAnimation.toValue = NSValue(CGPoint: CGPointMake(1, 1))
-            scaleSpringAnimation.springBounciness = 8
-            scaleSpringAnimation.springSpeed = 10
+            scaleSpringAnimation.springBounciness = 14
+            scaleSpringAnimation.springSpeed = 6
             to.view.layer.pop_addAnimation(scaleSpringAnimation, forKey: "scaleSpringAnimation")
             
             //translation
