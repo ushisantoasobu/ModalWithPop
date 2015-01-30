@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E104F207229DC4EA5AFCD4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1313C7B35653E8C89AF87B62 /* libPods.a */; };
 		CD5B6D8B1A7BD7A300D88C65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B6D8A1A7BD7A300D88C65 /* AppDelegate.swift */; };
 		CD5B6D8D1A7BD7A300D88C65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B6D8C1A7BD7A300D88C65 /* ViewController.swift */; };
 		CD5B6D901A7BD7A300D88C65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5B6D8E1A7BD7A300D88C65 /* Main.storyboard */; };
 		CD5B6D921A7BD7A300D88C65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5B6D911A7BD7A300D88C65 /* Images.xcassets */; };
 		CD5B6D951A7BD7A300D88C65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5B6D931A7BD7A300D88C65 /* LaunchScreen.xib */; };
 		CD5B6DA11A7BD7A300D88C65 /* ModalWithPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B6DA01A7BD7A300D88C65 /* ModalWithPopTests.swift */; };
+		CD5B6DAB1A7BD9E500D88C65 /* ModalWithPopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B6DAA1A7BD9E500D88C65 /* ModalWithPopAnimator.swift */; };
+		CD5B6DAD1A7BE75500D88C65 /* SomeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B6DAC1A7BE75500D88C65 /* SomeHelper.swift */; };
+		CD5B6DB01A7BE83C00D88C65 /* SomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B6DAE1A7BE83C00D88C65 /* SomeViewController.swift */; };
+		CD5B6DB11A7BE83C00D88C65 /* SomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5B6DAF1A7BE83C00D88C65 /* SomeViewController.xib */; };
+		CD5B6DB31A7BEC6500D88C65 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD5B6DB21A7BEC6500D88C65 /* test.jpg */; };
+		CD5B6DB51A7BF17400D88C65 /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD5B6DB41A7BF17400D88C65 /* test2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09A0AEF6059C08D778F3F964 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		1313C7B35653E8C89AF87B62 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22BF8F31ACD7094F6D5053C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CD5B6D851A7BD7A300D88C65 /* ModalWithPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalWithPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5B6D891A7BD7A300D88C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD5B6D8A1A7BD7A300D88C65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +46,12 @@
 		CD5B6D9A1A7BD7A300D88C65 /* ModalWithPopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalWithPopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5B6D9F1A7BD7A300D88C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD5B6DA01A7BD7A300D88C65 /* ModalWithPopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalWithPopTests.swift; sourceTree = "<group>"; };
+		CD5B6DAA1A7BD9E500D88C65 /* ModalWithPopAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalWithPopAnimator.swift; sourceTree = "<group>"; };
+		CD5B6DAC1A7BE75500D88C65 /* SomeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeHelper.swift; sourceTree = "<group>"; };
+		CD5B6DAE1A7BE83C00D88C65 /* SomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeViewController.swift; sourceTree = "<group>"; };
+		CD5B6DAF1A7BE83C00D88C65 /* SomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SomeViewController.xib; sourceTree = "<group>"; };
+		CD5B6DB21A7BEC6500D88C65 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		CD5B6DB41A7BF17400D88C65 /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E104F207229DC4EA5AFCD4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +73,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30A2BC35350E2678B39D9AE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1313C7B35653E8C89AF87B62 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66C82EC28F123F9EFDD071B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09A0AEF6059C08D778F3F964 /* Pods.debug.xcconfig */,
+				A22BF8F31ACD7094F6D5053C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CD5B6D7C1A7BD7A300D88C65 = {
 			isa = PBXGroup;
 			children = (
 				CD5B6D871A7BD7A300D88C65 /* ModalWithPop */,
 				CD5B6D9D1A7BD7A300D88C65 /* ModalWithPopTests */,
 				CD5B6D861A7BD7A300D88C65 /* Products */,
+				66C82EC28F123F9EFDD071B3 /* Pods */,
+				30A2BC35350E2678B39D9AE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +115,12 @@
 			children = (
 				CD5B6D8A1A7BD7A300D88C65 /* AppDelegate.swift */,
 				CD5B6D8C1A7BD7A300D88C65 /* ViewController.swift */,
+				CD5B6DAC1A7BE75500D88C65 /* SomeHelper.swift */,
+				CD5B6DAE1A7BE83C00D88C65 /* SomeViewController.swift */,
+				CD5B6DAF1A7BE83C00D88C65 /* SomeViewController.xib */,
+				CD5B6DB21A7BEC6500D88C65 /* test.jpg */,
+				CD5B6DB41A7BF17400D88C65 /* test2.jpg */,
+				CD5B6DAA1A7BD9E500D88C65 /* ModalWithPopAnimator.swift */,
 				CD5B6D8E1A7BD7A300D88C65 /* Main.storyboard */,
 				CD5B6D911A7BD7A300D88C65 /* Images.xcassets */,
 				CD5B6D931A7BD7A300D88C65 /* LaunchScreen.xib */,
@@ -119,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD5B6DA41A7BD7A300D88C65 /* Build configuration list for PBXNativeTarget "ModalWithPop" */;
 			buildPhases = (
+				49285AE4996BA5EFF3F7B385 /* Check Pods Manifest.lock */,
 				CD5B6D811A7BD7A300D88C65 /* Sources */,
 				CD5B6D821A7BD7A300D88C65 /* Frameworks */,
 				CD5B6D831A7BD7A300D88C65 /* Resources */,
+				EE557989A374108A329FA7B5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,7 +238,10 @@
 			files = (
 				CD5B6D901A7BD7A300D88C65 /* Main.storyboard in Resources */,
 				CD5B6D951A7BD7A300D88C65 /* LaunchScreen.xib in Resources */,
+				CD5B6DB11A7BE83C00D88C65 /* SomeViewController.xib in Resources */,
+				CD5B6DB31A7BEC6500D88C65 /* test.jpg in Resources */,
 				CD5B6D921A7BD7A300D88C65 /* Images.xcassets in Resources */,
+				CD5B6DB51A7BF17400D88C65 /* test2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,13 +254,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49285AE4996BA5EFF3F7B385 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE557989A374108A329FA7B5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD5B6D811A7BD7A300D88C65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CD5B6D8D1A7BD7A300D88C65 /* ViewController.swift in Sources */,
+				CD5B6DB01A7BE83C00D88C65 /* SomeViewController.swift in Sources */,
+				CD5B6DAB1A7BD9E500D88C65 /* ModalWithPopAnimator.swift in Sources */,
 				CD5B6D8B1A7BD7A300D88C65 /* AppDelegate.swift in Sources */,
+				CD5B6DAD1A7BE75500D88C65 /* SomeHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -334,21 +417,25 @@
 		};
 		CD5B6DA51A7BD7A300D88C65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A0AEF6059C08D778F3F964 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ModalWithPop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ModalWithPop-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		CD5B6DA61A7BD7A300D88C65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22BF8F31ACD7094F6D5053C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ModalWithPop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ModalWithPop-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +492,7 @@
 				CD5B6DA61A7BD7A300D88C65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD5B6DA71A7BD7A300D88C65 /* Build configuration list for PBXNativeTarget "ModalWithPopTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +501,7 @@
 				CD5B6DA91A7BD7A300D88C65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,25 +1,97 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ModalWithPop" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="S6v-zl-gYU">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J3e-dI-Cp3">
+                                <rect key="frame" x="16" y="262" width="288" height="44"/>
+                                <color key="backgroundColor" red="0.25490196079999999" green="0.7843137255" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Ux4-b4-uqU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="B">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BtnATapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gec-im-YEH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXd-uU-FCQ">
+                                <rect key="frame" x="16" y="158" width="288" height="44"/>
+                                <color key="backgroundColor" red="0.25490196079999999" green="0.7843137255" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="HfY-Hq-uFK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="A">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnATapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OSy-cM-FJO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJm-bv-B5X">
+                                <rect key="frame" x="16" y="366" width="288" height="44"/>
+                                <color key="backgroundColor" red="0.25490196079999999" green="0.7843137255" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Zbf-vr-xAx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="C">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnCTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pOO-DR-BUT"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="J3e-dI-Cp3" secondAttribute="centerX" id="3K4-5E-GpO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="S6v-zl-gYU" secondAttribute="trailing" constant="-16" id="BAf-RF-Aqf"/>
+                            <constraint firstItem="TJm-bv-B5X" firstAttribute="top" secondItem="J3e-dI-Cp3" secondAttribute="bottom" constant="60" id="BD5-yI-DYM"/>
+                            <constraint firstItem="S6v-zl-gYU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="KhJ-pG-UfD"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="S6v-zl-gYU" secondAttribute="bottom" id="M3r-E0-EmE"/>
+                            <constraint firstItem="rXd-uU-FCQ" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="MO5-gT-aZW"/>
+                            <constraint firstItem="J3e-dI-Cp3" firstAttribute="top" secondItem="rXd-uU-FCQ" secondAttribute="bottom" constant="60" id="Mr0-hb-TsP"/>
+                            <constraint firstItem="S6v-zl-gYU" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="OHo-fH-AGP"/>
+                            <constraint firstItem="TJm-bv-B5X" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Ojk-33-7Ts"/>
+                            <constraint firstItem="J3e-dI-Cp3" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="U1P-r5-JAZ"/>
+                            <constraint firstAttribute="centerY" secondItem="J3e-dI-Cp3" secondAttribute="centerY" id="cKz-h0-hPY"/>
+                            <constraint firstItem="J3e-dI-Cp3" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="hSJ-WK-iTb"/>
+                            <constraint firstItem="rXd-uU-FCQ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="jQK-f7-Vwb"/>
+                            <constraint firstItem="TJm-bv-B5X" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="vSo-hf-ebK"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="test2.jpg" width="2448" height="3264"/>
+    </resources>
 </document>
