@@ -15,10 +15,8 @@
 		CD5B6D951A7BD7A300D88C65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5B6D931A7BD7A300D88C65 /* LaunchScreen.xib */; };
 		CD5B6DA11A7BD7A300D88C65 /* ModalWithPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B6DA01A7BD7A300D88C65 /* ModalWithPopTests.swift */; };
 		CD5B6DAB1A7BD9E500D88C65 /* ModalWithPopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B6DAA1A7BD9E500D88C65 /* ModalWithPopAnimator.swift */; };
-		CD5B6DAD1A7BE75500D88C65 /* SomeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B6DAC1A7BE75500D88C65 /* SomeHelper.swift */; };
 		CD5B6DB01A7BE83C00D88C65 /* SomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B6DAE1A7BE83C00D88C65 /* SomeViewController.swift */; };
 		CD5B6DB11A7BE83C00D88C65 /* SomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5B6DAF1A7BE83C00D88C65 /* SomeViewController.xib */; };
-		CD5B6DB31A7BEC6500D88C65 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD5B6DB21A7BEC6500D88C65 /* test.jpg */; };
 		CD5B6DB51A7BF17400D88C65 /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD5B6DB41A7BF17400D88C65 /* test2.jpg */; };
 /* End PBXBuildFile section */
 
@@ -47,10 +45,8 @@
 		CD5B6D9F1A7BD7A300D88C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD5B6DA01A7BD7A300D88C65 /* ModalWithPopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalWithPopTests.swift; sourceTree = "<group>"; };
 		CD5B6DAA1A7BD9E500D88C65 /* ModalWithPopAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalWithPopAnimator.swift; sourceTree = "<group>"; };
-		CD5B6DAC1A7BE75500D88C65 /* SomeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeHelper.swift; sourceTree = "<group>"; };
 		CD5B6DAE1A7BE83C00D88C65 /* SomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeViewController.swift; sourceTree = "<group>"; };
 		CD5B6DAF1A7BE83C00D88C65 /* SomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SomeViewController.xib; sourceTree = "<group>"; };
-		CD5B6DB21A7BEC6500D88C65 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		CD5B6DB41A7BF17400D88C65 /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,10 +111,8 @@
 			children = (
 				CD5B6D8A1A7BD7A300D88C65 /* AppDelegate.swift */,
 				CD5B6D8C1A7BD7A300D88C65 /* ViewController.swift */,
-				CD5B6DAC1A7BE75500D88C65 /* SomeHelper.swift */,
 				CD5B6DAE1A7BE83C00D88C65 /* SomeViewController.swift */,
 				CD5B6DAF1A7BE83C00D88C65 /* SomeViewController.xib */,
-				CD5B6DB21A7BEC6500D88C65 /* test.jpg */,
 				CD5B6DB41A7BF17400D88C65 /* test2.jpg */,
 				CD5B6DAA1A7BD9E500D88C65 /* ModalWithPopAnimator.swift */,
 				CD5B6D8E1A7BD7A300D88C65 /* Main.storyboard */,
@@ -239,7 +233,6 @@
 				CD5B6D901A7BD7A300D88C65 /* Main.storyboard in Resources */,
 				CD5B6D951A7BD7A300D88C65 /* LaunchScreen.xib in Resources */,
 				CD5B6DB11A7BE83C00D88C65 /* SomeViewController.xib in Resources */,
-				CD5B6DB31A7BEC6500D88C65 /* test.jpg in Resources */,
 				CD5B6D921A7BD7A300D88C65 /* Images.xcassets in Resources */,
 				CD5B6DB51A7BF17400D88C65 /* test2.jpg in Resources */,
 			);
@@ -296,7 +289,6 @@
 				CD5B6DB01A7BE83C00D88C65 /* SomeViewController.swift in Sources */,
 				CD5B6DAB1A7BD9E500D88C65 /* ModalWithPopAnimator.swift in Sources */,
 				CD5B6D8B1A7BD7A300D88C65 /* AppDelegate.swift in Sources */,
-				CD5B6DAD1A7BE75500D88C65 /* SomeHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
